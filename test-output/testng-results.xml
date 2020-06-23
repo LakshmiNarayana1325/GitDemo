@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52" started-at="2020-06-13T07:17:14Z" finished-at="2020-06-13T07:17:14Z">
+    <groups>
+    </groups>
+    <test name="app" duration-ms="8" started-at="2020-06-13T07:17:14Z" finished-at="2020-06-13T07:17:14Z">
+    </test> <!-- app -->
+    <test name="verifytext" duration-ms="52" started-at="2020-06-13T07:17:14Z" finished-at="2020-06-13T07:17:14Z">
+      <class name="Academy.verifytext">
+        <test-method status="FAIL" signature="before()[pri:0, instance:Academy.verifytext@198b6731]" name="before" is-config="true" duration-ms="0" started-at="2020-06-13T00:17:14Z" finished-at="2020-06-13T00:17:14Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at resource.base.initializedriver(base.java:34)
+	at Academy.verifytext.before(verifytext.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="SKIP" signature="initializehomepage()[pri:0, instance:Academy.verifytext@198b6731]" name="initializehomepage" duration-ms="4" started-at="2020-06-13T00:17:14Z" finished-at="2020-06-13T00:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializehomepage -->
+        <test-method status="SKIP" signature="after()[pri:0, instance:Academy.verifytext@198b6731]" name="after" is-config="true" duration-ms="0" started-at="2020-06-13T00:17:14Z" finished-at="2020-06-13T00:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Academy.verifytext -->
+    </test> <!-- verifytext -->
+    <test name="Test" duration-ms="52" started-at="2020-06-13T07:17:14Z" finished-at="2020-06-13T07:17:14Z">
+      <class name="Academy.baseapp">
+        <test-method status="FAIL" signature="before()[pri:0, instance:Academy.baseapp@44c03695]" name="before" is-config="true" duration-ms="0" started-at="2020-06-13T00:17:14Z" finished-at="2020-06-13T00:17:14Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at resource.base.initializedriver(base.java:34)
+	at Academy.baseapp.before(baseapp.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="SKIP" signature="initializehomepage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.baseapp@44c03695]" name="initializehomepage" duration-ms="4" started-at="2020-06-13T00:17:14Z" data-provider="getdata" finished-at="2020-06-13T00:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializehomepage -->
+        <test-method status="SKIP" signature="initializehomepage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.baseapp@44c03695]" name="initializehomepage" duration-ms="0" started-at="2020-06-13T00:17:14Z" data-provider="getdata" finished-at="2020-06-13T00:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mouse@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[resticted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializehomepage -->
+        <test-method status="SKIP" signature="after()[pri:0, instance:Academy.baseapp@44c03695]" name="after" is-config="true" duration-ms="0" started-at="2020-06-13T00:17:14Z" finished-at="2020-06-13T00:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Academy.baseapp -->
+    </test> <!-- Test -->
+    <test name="verifynavigation" duration-ms="52" started-at="2020-06-13T07:17:14Z" finished-at="2020-06-13T07:17:14Z">
+      <class name="Academy.verifynavigation">
+        <test-method status="FAIL" signature="before()[pri:0, instance:Academy.verifynavigation@bcec361]" name="before" is-config="true" duration-ms="0" started-at="2020-06-13T00:17:14Z" finished-at="2020-06-13T00:17:14Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at resource.base.initializedriver(base.java:34)
+	at Academy.verifynavigation.before(verifynavigation.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="SKIP" signature="academytext()[pri:0, instance:Academy.verifynavigation@bcec361]" name="academytext" duration-ms="4" started-at="2020-06-13T00:17:14Z" finished-at="2020-06-13T00:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- academytext -->
+        <test-method status="SKIP" signature="initializehomepage()[pri:0, instance:Academy.verifynavigation@bcec361]" name="initializehomepage" duration-ms="4" started-at="2020-06-13T00:17:14Z" finished-at="2020-06-13T00:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializehomepage -->
+        <test-method status="SKIP" signature="after()[pri:0, instance:Academy.verifynavigation@bcec361]" name="after" is-config="true" duration-ms="0" started-at="2020-06-13T00:17:14Z" finished-at="2020-06-13T00:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Academy.verifynavigation -->
+    </test> <!-- verifynavigation -->
+  </suite> <!-- Suite -->
+</testng-results>

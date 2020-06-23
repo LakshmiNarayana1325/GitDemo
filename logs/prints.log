@@ -1,0 +1,5 @@
+00:13:45.298 [TestNG] INFO  resource.base - text is visible
+00:18:02.340 [TestNG] INFO  resource.base - Driver loaded
+00:18:02.340 [TestNG] INFO  resource.base - driver loaded
+00:18:17.833 [TestNG] INFO  resource.base - page loaded
+00:18:18.487 [TestNG] INFO  resource.base - text is visible

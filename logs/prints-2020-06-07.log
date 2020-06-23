@@ -1,0 +1,9 @@
+23:07:31.338 [main] INFO  resource.base - driver loaded
+23:07:43.938 [main] INFO  resource.base - Driver loaded
+23:07:54.657 [main] INFO  resource.base - page loaded
+23:08:20.413 [main] INFO  resource.base - text is visible
+23:37:37.097 [main] INFO  resource.base - driver loaded
+23:38:01.323 [main] INFO  resource.base - Driver loaded
+23:38:04.773 [main] INFO  resource.base - page loaded
+23:38:13.381 [main] INFO  resource.base - text is visible
+23:39:10.712 [TestNG] INFO  resource.base - Driver loaded
