@@ -43,6 +43,7 @@ public class verifytext extends base{
 	public void after()
 	{
 		driver.close();
+		//used to close the driver
 	}
 	
 	
