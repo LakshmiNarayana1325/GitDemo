@@ -65,6 +65,9 @@ public class base {
 		String destination=System.getProperty("user.dir")+"\\reports\\"+testcasename+".png";
 		FileUtils.copyFile(source,new File(destination));
 		System.out.println("lastline of screenshot");
+		System.out.println("lastline of screenshot");
+		System.out.println("lastline of screenshot");
+		
 		return destination;
 	}
 
